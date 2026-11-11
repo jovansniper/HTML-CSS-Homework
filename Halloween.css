@@ -1,0 +1,150 @@
+body {
+  background-color: #180f24;
+  color: #cac3e0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.celina {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  margin-bottom: 30px;
+}
+header h1 {
+  color: #e05b01;
+  font-size: 24px;
+}
+header nav a {
+  color: #e05b01;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 14px;
+}
+header nav a:hover {
+  color: #ffffff;
+}
+.programa-sekcija {
+  margin-bottom: 40px;
+}
+.tikva {
+  float: left;
+  width: 140px;
+  height: 140px;
+  background-color: #e05b01;
+  border-radius: 50%;
+  margin-right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #180f24;
+  font-size: 12px;
+  font-weight: bold;
+}
+.note {
+  float: right;
+  width: 170px;
+  background-color: #6b289c;
+  padding: 15px;
+  border-radius: 8px;
+  margin-left: 20px;
+  font-size: 13px;
+  color: #ffffff;
+  line-height: 1.5;
+}
+.intro-tekst h2 {
+  color: #e05b01;
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+.intro-tekst p {
+  line-height: 1.6;
+  font-size: 14px;
+  color: #a89bc4;
+}
+.kartici-kontinjer {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+.kartica {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  border: 2px solid #e05b01;
+  border-radius: 12px;
+  padding: 25px 15px;
+  background-color: rgb(112, 15, 112);
+}
+.kartica h3 {
+  color: #e05b01;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+.kartica p {
+  color: #a89bc4;
+  font-size: 14px;
+}
+.programa-sekcija {
+  margin-bottom: 30px;
+}
+.programa-sekcija h2 {
+  color: #e05b01;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+.programa-lista {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.programa-predmet {
+  display: flex;
+  justify-content: space-between;
+  background-color: #241536;
+  padding: 15px 20px;
+  border-radius: 8px;
+  font-size: 14px;
+}
+.programa-vreme {
+  color: #e05b01;
+  font-weight: bold;
+}
+.programa-info {
+  color: #a89bc4;
+}
+.kutija-nagrada {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #6b289c;
+  border-radius: 12px;
+  height: 180px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.kutija-nagrada h3 {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0 10px;
+  color: #7b6f96;
+  font-size: 12px;
+}
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+} 

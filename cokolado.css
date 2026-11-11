@@ -1,0 +1,158 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f3f3ef;
+  color: #353535;
+  line-height: 1.6;
+  padding-top: 70px;
+}
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #382013;
+  color: white;
+  padding: 12px 20px;
+  z-index: 1000;
+}
+.Ime-na-prodavnica {
+  font-weight: bold;
+  font-size: 18px;
+  display: inline-block;
+  vertical-align: middle;
+}
+nav {
+  float: right;
+}
+
+nav a {
+  display: inline-block;
+  padding: 6px 14px;
+  margin-left: 5px;
+  background-color: #643a20;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+}
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #6e44e2;
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+  z-index: 999;
+}
+section h2 {
+  position: sticky;
+  top: 60px;
+  background-color: #bd5f12;
+  color: white;
+  padding: 12px 18px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  z-index: 10;
+}
+section {
+  padding: 20px;
+  margin-bottom: 10px;
+}
+p {
+  margin-bottom: 12px;
+}
+.block-demo {
+  display: block;
+  background-color: #b2d9ee;
+  color: #184461;
+  padding: 12px;
+  margin-bottom: 15px;
+  font-weight: bold;
+  border-radius: 4px;
+}
+.inline-demo {
+  display: inline;
+  background-color: #f8dde5;
+  color: #850d4d;
+  padding: 2px 6px;
+  font-weight: bold;
+  border-radius: 3px;
+}
+.tag  {
+  display: inline-block;
+  width: 110px;
+  padding: 6px 0;
+  text-align: center;
+  background-color: #62d6c9;
+  color: #00473c;
+  font-weight: bold;
+  font-size: 12px;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+.relative-demo {
+  position: relative;
+  top: 8px;
+  left: 30px;
+  background-color: #ecb52a;
+  color: #333232;
+  padding: 10px 15px;
+  display: inline-block;
+  margin-bottom: 25px;
+  font-weight: bold;
+  border-radius: 4px;
+}
+.kontinjer {
+  margin: 15px 0;
+}
+.kartica {
+  position: relative;
+  display: inline-block;
+  width: 30%;
+  min-width: 220px;
+  margin-right: 2%;
+  margin-bottom: 15px;
+  vertical-align: top;
+  background-color: #f5e6d5;
+  border: 1px solid #ccb190;
+  border-radius: 8px;
+  padding: 20px 15px 15px 15px;
+}
+.kartica:last-child {
+  margin-right: 0;
+}
+.kartica h3 {
+  font-size: 15px;
+  margin-bottom: 8px;
+}
+.kartica p {
+  font-size: 10px;
+  color: #5a5858;
+  margin-bottom: 8px;
+}
+.absolute-badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #e43835;
+  color: white;
+  font-size: 8px;
+  padding: 3px 8px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+footer {
+  background-color: #353434;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+  font-size: 8px;
+}

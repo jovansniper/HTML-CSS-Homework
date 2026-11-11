@@ -1,0 +1,131 @@
+body {
+  background-color: #0e0e0e;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.kontinjer {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid #b71c1c;
+  padding: 20px 0;
+}
+.logo {
+  color: #db2f2c;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+nav {
+  display: flex;
+  gap: 25px;
+}
+nav a {
+  color: #cccccc;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+nav a:hover {
+  color: white;
+}
+.kupi {
+  background-color: #b71c1c;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+main {
+  padding: 40px 0;
+}
+h2 {
+  color: #db2f2c;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+.gla-kartica {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  background-color: #222222;
+  padding: 25px;
+  border-radius: 12px;
+  margin-bottom: 40px;
+}
+.slika {
+  width: 220px;
+  height: 140px;
+  background-color: #8f1c1c;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  flex-shrink: 0;
+}
+.info h3 {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+.info p {
+  color: #a5a5a5;
+  line-height: 1.5;
+  font-size: 0.9rem;
+}
+.umetnici {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+.umetnik {
+  flex: 1;
+  background-color: #1b1b1b;
+  border: 1px solid #b71c1c;
+  border-radius: 10px;
+  padding: 20px;
+}
+.umetnik h3 {
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+}
+.umetnik .tip-vreme {
+  color: #888787;
+  font-size: 0.8rem;
+  margin-bottom: 15px;
+}
+.umetnik .deskripcija {
+  color: #c9c7c7;
+  font-size: 0.9rem;
+  line-height: 1.4;
+  margin-bottom: 15px;
+}
+.cena {
+  display: flex;
+  align-items: baseline;
+  gap: 5px;
+}
+.cena-iznos {
+  color: #db2f2c;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+.cena-valuta {
+  color: #888787;
+  font-size: 0.8rem;
+}
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 2px solid #b71c1c;
+  padding: 25px 0;
+  color: #888787;
+  font-size: 0.8rem;
+}
